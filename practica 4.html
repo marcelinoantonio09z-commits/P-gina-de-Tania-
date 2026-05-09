@@ -1,0 +1,139 @@
+<HTML>
+    <Head>
+        <title>
+            Practica 4
+        </title>
+    </Head>
+    <body>
+        <img alt="imagen" src="fo1.jpg" width="300" height="700">
+        <img alt="imagen" src="fo2.jpg" width="300" height="700">
+        <img alt="imagen" src="fo3.jpg" width="300" height="700">
+<h2>En este código vemos las diferentes etiquetas que se ocupan para las diferentes tipos de formularios como van cambiando la estructura</h2>
+        <input type="text"/><br>
+        <input type="password"/><br>
+        <input type="texto" value="opcion 3"/>
+        <hr>
+        <input type="checkbox"/>Leche<br>
+        <input type="checkbox"/>Agua<br>
+        <input type="checkbox"/>opcion 3
+        <hr>
+        <input type="radio" name="sexo"/>Hombre<br>
+        <input type="radio" name="sexo"/>Mujer<br>
+        <input type="radio" name="sexo"/>opcion 3
+        <hr>
+        <input type="submit" value="Enviar"/>
+        <input type="submit" value="Siguiente Pregunta &gt;&gt;"/>
+        <hr>
+        <input type="reset" value="Resetear formulario"/>
+        <input type="reset" value="Limpiar campos"/>
+        <hr>
+        <input type="text" size="5"/><br>
+        <input type="text" size="10"/><br>
+        <input type="text" size="15"/><br>
+        <hr>
+        <input type="text" size="5" value="12345"/><br>
+        <input type="text" size="10" value="Campos de texto"/><br>
+        <input type="text" size="25" value="Ejemplo de opcion 3"/><br>
+        <hr>
+        <input type="password" size="10" maxlength="5"/>opcion 3 
+        <hr>
+        <p>Elije tu color favorito</p>
+        <p>Azul:<input type="checkbox" name="colors" value="blue"/><br>
+        marillo:<input type="checkbox" name="colors" value="yellow"/><br>
+        Rojo:<input type="checkbox" name="colors" value="red"/><br>
+        Verde:<input type="checkbox" name="colors" value="green"/><br>
+        Opcion3:<input type="checkbox" name="colors" value="opcion3"></p>
+        <hr>
+        <p>Elije tu color favorito</p>
+        <p>Azul:<input type="checkbox" name="colors" value="blue" checked="yes"/><br>
+        marillo:<input type="checkbox" name="colors" value="yellow"/><br>
+        Rojo:<input type="checkbox" name="colors" value="red"/><br>
+        Verde:<input type="checkbox" name="colors" value="green"/><br>
+        Opcion3:<input type="checkbox" name="colors" value="opcion3" checked="yes"></p>
+        <hr>
+        <p>Eligir nacionalidad</p>
+        <p>Espa�ola: <input type="radio" name="citizenship"/><br>
+        Chino: <input type="radio" name="citizenship"/><br>
+        Opcion 3:<input type="radio" name="citizenship"/></p>
+        <hr>
+        <p>Eligir nacionalidad</p>
+        <p>Espa�ola: <input type="radio" name="citizenship"/><br>
+        Chino: <input type="radio" name="citizenship"/><br>
+        Opcion 3:<input type="radio" name="citizenship"/></p>
+        <p>Escoger Genero</p>
+         <p> <input type="radio" name="sexo"/>Hombre<br>
+        <input type="radio" name="sexo"/>Mujer<br>
+        <input type="radio" name="sexo"/>opcion 3 </p>
+        <hr>
+        <textarea>Opcion3</textarea>
+        <hr>
+        <textarea cols="50" rows="2">Area de texto</textarea>
+        <textarea cols="40" rows="5">Area de texto</textarea>
+        <textarea cols="20" rows="10">Area de Opcion3</textarea>
+        <hr>
+        <textarea cols="20" rows="5" wrap="hard">Hard - ubica un enter al final de cada linea y envia el texto en el mismo formato en el que fue introducido.</textarea>
+        <hr>
+        <textarea cols="20" rows="5" wrap="off">Off - este no formatea el texto de ninguna manera, deja el texto en unoca linea continua</textarea>
+        <hr>
+        <textarea cols="20" rows="5" wrap="hard" readonly="yes">Como puedes ver este texto no puede ser modificado. en caso de que el valor sea "no", se obtendra el resultado opuesto</textarea>
+        <hr>
+        <textarea cols="20" rows="5" wrap="hard" disabled="yes">El atributo disabled no es muy diferente del readonly. el texto se mostrara en gris, desactivando al mismo tiempo la posibilidad de modificar el texto contenido en el area de texto</textarea>
+        <hr>
+        <input type="file"/>
+        <hr>
+        <input type="hidden" name="MAX_FILE_SIZE" value="4194304"/>
+        <input type="file"/>
+        <hr>
+        <select>
+            <option>Tuxpan</option>
+            <option>Alamo</option>
+            <option>Opcion 3</option>
+        </select>
+        <hr>
+        <select>
+            <option>Tuxpan</option>
+            <option selected="yes">Alamo</option>
+            <option>Opcion 3</option>
+        </select>
+        <hr>
+        <select name="my_html_select_box" size="3">
+            <option>Tuxpan</option>
+            <option>Alamo</option>
+            <option>Papantla</option>
+        </select>
+        <hr>
+        <select name="my_html_select_box" multiple="yes" size="3">
+            <option>Tuxpan</option>
+            <option>Alamo</option>
+            <option>Papantla</option>
+        </select>
+        <hr>
+        <input type="submit" value="Submit"/><br>
+        <input type="submit" value="Enviar"/><br>
+        <input type="submit" value="Continuar"/>
+        <hr>
+        <form method="post" action="mailto: flopez1023@ver.conalep.edu.mx">
+            Nombre:<input type="text" name="Name" size="5" maxlength="10"/> Apellido: <input type="text" name="Last_name" size="15" maxlength="25"/> <input type="submit" value="Enviar correo"/>
+        </form>
+        <hr>
+        <input type="reset" value="Reset"/><br>
+        <input type="reset" value="Borrar"/><br>
+        <input type="reset" value="Limpiar formulario"/>
+        <hr>
+        <form action="myphp.php" method="post">
+            <input type="text" size="15" maxlength="15"/><br>
+            <input type="text" size="25" maxlength="25"/>
+            <input type="reset" value="Borrar todo"/>
+            </form>
+            <hr>
+            <audio controls>
+                <source src="sw.mp3" type="audio/mpeg">
+                    <source src="sw.ogg" type="audio/ogg">
+            </audio>
+            <hr>
+            <video width="320" height="240" controls>
+                <source src="practica1.mp4" type="video/mp4">
+                    <source src="practica1.ogg" type="video/ogg">
+            </video>
+  </body>
+</HTML>
